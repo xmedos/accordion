@@ -1,8 +1,8 @@
+const localDoc = (document._currentScript || document.currentScript).ownerDocument;
 
 class Accordion extends HTMLElement{
   constructor(){
     super();
-    const localDoc = (document._currentScript || document.currentScript).ownerDocument;
 		const accordionTemplate = localDoc.querySelector('#accordion-template');
 		ShadyCSS.prepareTemplate(accordionTemplate, 'accordion-element');
     this.shadow = this.attachShadow({mode: 'open'});
