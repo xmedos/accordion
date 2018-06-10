@@ -28,7 +28,7 @@ And state what happens step-by-step.
 ```shell
 npm run start:dev
 ```
-
+https://xmedos.github.io/accordion/dist/index.html
 
 ## Tests
 
