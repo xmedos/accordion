@@ -29,7 +29,6 @@ And state what happens step-by-step.
 npm run start:dev
 ```
 
-
 ## Tests
 
 ```shell
