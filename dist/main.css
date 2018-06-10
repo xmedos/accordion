@@ -1,0 +1,44 @@
+dl {
+  box-shadow: 5px 5px 5px #aaaaaa;
+  width: 100%; }
+
+dt {
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border-top: 1px solid #fff;
+  outline: none;
+  transition: 0.4s;
+  background-color: #0099cc;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+dd {
+  padding: 0 0 0 50px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  max-height: 0;
+  margin: 0 -10px 0 0;
+  background: #ccf2ff;
+  width: 100%; }
+
+i {
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-right: 18px; }
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg); }
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg); }
+
+.hide {
+  display: none; }
+

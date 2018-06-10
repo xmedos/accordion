@@ -1,0 +1,49 @@
+$gradient-top: #0099cc
+$gradient-bottom: #ccf2ff
+$down: 45deg
+$up: -135deg
+$width: 100%
+
+dl
+  box-shadow: 5px 5px 5px #aaaaaa
+  width: $width
+
+dt
+  color: #fff
+  cursor: pointer
+  padding: 18px
+  width: $width
+  text-align: left
+  border-top: 1px solid #fff
+  outline: none
+  transition: 0.4s
+  background-color: $gradient-top
+  text-transform: uppercase
+  font-weight: bold
+
+dd
+  padding: 0 0 0 50px
+  overflow: hidden
+  transition: max-height 0.2s ease-out
+  max-height: 0
+  margin: 0 -10px 0 0
+  background: $gradient-bottom
+  width: $width
+
+i
+  border: solid #fff
+  border-width: 0 3px 3px 0
+  display: inline-block
+  padding: 3px
+  margin-right: 18px
+
+.down
+  transform: rotate($down)
+  -webkit-transform: rotate($down)
+
+.up
+  transform: rotate($up)
+  -webkit-transform: rotate($up)
+
+.hide
+  display: none

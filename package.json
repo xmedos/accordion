@@ -1,0 +1,39 @@
+{
+  "name": "accordion",
+  "version": "1.0.0",
+  "description": "simple accordion with web webcomponents",
+  "main": "./app.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "start:dev": "webpack-dev-server --hot --inline",
+    "test": "mocha-webpack",
+    "test:watch": "npm run test -- --watch",
+    "build": "rm -rf && webpack"
+  },
+  "keywords": [
+    "accordion",
+    "vanilla"
+  ],
+  "author": "xmedos@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "mocha": "^5.2.0",
+    "mocha-webpack": "^1.1.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.2",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.0.0"
+  }
+}
